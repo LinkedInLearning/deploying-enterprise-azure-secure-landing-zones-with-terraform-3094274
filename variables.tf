@@ -1,11 +1,11 @@
 #Root Variables 
 variable "root_id" {
   type = string 
-  default = "terraform"
+  default = "create ID"
 }
 variable "root_name"{
     type = string 
-    default = "terraform"
+    default = "create name"
 }
 
 #connectivity settings 
@@ -19,7 +19,7 @@ variable "connectivity_resources_location"{
 }
 variable "subscription_id_connectivity" {
   type = string 
-  default = "898faee3-e1ee-4f37-a383-604fe4d5806c"
+  default = "enter subscription ID"
 }
 variable "connectivity_resources_tags"{
     type = map(string)
@@ -38,7 +38,7 @@ variable "log_retention_in_days"{
 }
 variable "security_alerts_email_address" {
   type = string 
-  default = "accelerateterraform@outlook.com"
+  default = "enter your email"
 }
 variable "management_resources_location" {
   type = string 
@@ -46,7 +46,7 @@ variable "management_resources_location" {
 }
 variable "subscription_id_management" {
   type = string 
-  default = "e5add6e8-d95f-4171-816d-759797c47d31"
+  default = "enter management ID"
 }
 variable "management_resources_tags"{
     type = map(string)
@@ -61,5 +61,5 @@ variable "deploy_identity_resources"{
 }
 variable "subscription_id_identity"{
     type = string 
-    default = "6728a84a-16e8-4e58-8620-a21d7f5e43ce"
+    default = "enter subscription ID"
 }
