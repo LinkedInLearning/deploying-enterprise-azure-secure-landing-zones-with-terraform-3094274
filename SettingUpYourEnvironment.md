@@ -46,3 +46,8 @@ The primary workflow commands are given first, followed by
 less common or more advanced commands.
 
 ```
+### Installing Git with Git 
+Below is the command for installing Git for source control. 
+``` 
+choco install git
+```
