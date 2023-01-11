@@ -17,8 +17,31 @@
       "policy_set_definitions": [],
       "role_definitions": [],
       "archetype_config": {
-        "parameters": {},
+        "parameters": {
+          "Deny-Resource-Locations": {
+            "listOfAllowedLocations": [
+              "francecentral",
+              "eastus2",
+              "westus",
+              "northcentralus",
+              "southcentralus"
+            ]
+          },
+          "Deny-RSG-Locations": {
+            "listOfAllowedLocations": [
+              "francecentral",
+              "eastus2",
+              "westus",
+              "northcentralus",
+              "southcentralus"
+            ]
+        },
         "access_control": {}
+      }
       }
     }
   }
+  
+
+
+ 
